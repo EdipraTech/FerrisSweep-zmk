@@ -11,7 +11,7 @@
 #define BASE    0
 #define NUM     1
 #define SYM     2
-//#define NUM     3
+#define NAV     3
 //#define FUN     4
 //#define MED     5
 
