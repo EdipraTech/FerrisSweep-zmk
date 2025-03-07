@@ -64,8 +64,8 @@
         nav_layer {
             bindings = <
     &kp PSCRN   &kp HOME    &kp UP      &kp END    &kp RBRC             &kp F12   &msc SCRL_UP   &mmv MOVE_UP   &msc SCRL_DOWN  &kp C_MUTE
-    &kp PG_UP   &kp LEFT    &kp DOWN    &kp RIGHT  &kp PLUS             &kp F11   &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp C_VOL_UP
-    &kp PG_DN   &kp N1      &kp CTRL    &kp SHIFT  &kp PIPE             &kp F10   &kp C_PREV     &kp C_PAUSE    &kp C_NEXT      &kp C_VOL_DN
+    &kp PG_UP   &kp LEFT    &kp DOWN    &kp RIGHT  &kp PG_UP            &kp PG_DN &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp C_VOL_UP
+    &kp PG_DN   &kp N1      &kp CTRL    &kp SHIFT  &kp HOME             &kp END   &kp C_PREV     &kp C_PAUSE    &kp C_NEXT      &kp C_VOL_DN
                                         &none      &trans               &none     &none
             >;
         };
